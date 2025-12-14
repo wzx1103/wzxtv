@@ -22,9 +22,14 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    dytt: {
+    heimuer: {
+        api: 'https://json.heimuer.xyz',
+        name: '黑木耳',
+        detail: 'https://heimuer.tv',
+    },
+    dyttzytv: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂zy',
+        name: '电影天tv',
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
